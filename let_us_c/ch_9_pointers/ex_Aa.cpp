@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-void fun(int i, int j)
+void fun(int i, int j) // Pass by Value
 {
     i = i * i;
     j = j * j;
